@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/Sao_Paulo
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Sao_Paulo
+X-LIC-LOCATION:America/Sao_Paulo
+BEGIN:STANDARD
+TZNAME:-03
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240805T235155Z
+DTSTART;TZID=America/Sao_Paulo:20240805T210000
+DTEND;TZID=America/Sao_Paulo:20240805T220000
+SUMMARY:Sala Pessoal do 'Ana Filipe'
+UID:20240805T235155Z-8115977878@fe80:0:0:0:c60:85ff:fec4:722feth0
+TZID:America/Sao_Paulo
+DESCRIPTION:Ana Filipe está convidando você para uma reunião Zoom agendad
+ a.\n\nEntrar Zoom Reunião\nhttps://us05web.zoom.us/j/8115977878?pwd=wPPu
+ bxvcoHxE2jkownlfwf6zeelu2k.1\n\nID da reunião: 811 597 7878\nSenha: 7vy5
+ hq\n\n
+LOCATION:https://us05web.zoom.us/j/8115977878?pwd=wPPubxvcoHxE2jkownlfwf6
+ zeelu2k.1
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
